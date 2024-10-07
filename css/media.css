@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1000px) {
+
+    .header h1{
+        position: absolute;
+        left: 25%;
+    }
+
+.sidebar{height: 1000px;}
+
+.h_list{
+    position: absolute;
+    left: 750px;
+    top: 15px;
+}
+
+.cake_img li{
+    width: 250px;
+    height: 250px;
+}
+} /* 1000 */
+
+
+
+
+
+@media screen and (min-width:600px) {
+    
+} /* 468 */

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+#wrap{}
+
+
+
+/* HEADER 영역 */
+.header{
+    width: 100%;
+    padding: 18px 5%;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    display:block;
+    /* border: 1px solid #000; */
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+.header h1 a{}
+
+.header nav{}
+
+.header nav .h_list{}
+
+.header nav .h_list li, .icon1{
+    display: inline-block;
+    margin-left: 20px;
+    /* border: 1px solid #000; */
+    
+
+}
+
+.header nav .h_list li > a, .icon1 a{
+    font-size: 15px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+
+.icon1 a{background-image: url('../img/menu_btn.png');background-size: 70% !important}
+.icon2 a{background-image: url('../img/search.png');background-size: 70% !important}
+.icon3 a{background-image: url('../img/cart.png');background-size: 80% !important}
+.icon4 a{background-image: url('../img/로고.png');  background-size: 180% !important;}
+
+
+
+/* sidebar 영역 */
+.sidebar{
+    background-color: #490000;
+    width: 300px;
+    height: 100vh;
+    border: 1px solid #000;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.sidebar.act{left: 0;}
+
+.close{
+    background-image: url("../img/close.png");
+    text-indent: -9999px;
+    background-size: cover ;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    /* border: 1px solid #000; */
+}
+
+.sign{
+    /* border: 1px solid #000; */
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.sign p:hover{
+    text-decoration: underline;
+    color: white;
+}
+.sign p{}
+.sign p span{}
+
+.bar_list{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: white;
+    line-height: 35px;
+    /* border: 1px solid #000; */
+}
+.bar_list li{}
+.bar_list li:hover{
+    text-decoration: underline;
+    color: white;
+}
+.bar_list li a{}
+
+
+
+/* MAIN 영역 */
+
+#main{
+    /* border: 1px solid red; */
+}
+
+.main_visual{
+}
+
+.slider{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.slider .slick-slide{
+}
+
+.slider li{
+    max-height: 1091px;
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slider li.s1_01{background-image: url("../img/배경0.jpg");}
+.slider li.s1_02{background-image: url("../img/배경.jpg");}
+.slider li.s1_03{background-image: url("../img/배경2.jpg");}
+.slider li.s1_05{background-image: url("../img/배경4.jpg");}
+
+
+.cake_list{
+    margin-bottom: 100px;
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    margin: 300px 0 200px 200px;
+}
+.cake_list h2{
+    /* position: absolute;
+    top: 1320px;
+    left: 227px; */
+    margin-bottom: 30px;
+    
+}
+
+.cake_list h2:hover{
+    text-decoration: underline;
+}
+.cake_list h2 a{
+    font-size: 35px;
+
+}
+.cake_list h2 a span{
+    font-weight: 100;
+}
+.cake_img{
+    margin-bottom: 300px;
+}
+
+.cake_img .slick-slide{
+    margin-right: 70px;
+}
+.cake_img li{
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    background-size: cover; 
+    background-position: center center; 
+    text-indent: -9999px;
+    
+}
+.cake_img li a{}
+
+.cherry01{background-image: url("../img/체리온탑1.jpg");}
+.cherry02{background-image: url("../img/체리온탑2.jpg");}
+.cherry03{background-image: url("../img/체리온탑3.jpg");}
+.cherry04{background-image: url("../img/체리온탑4.jpg");}
+.cherry05{background-image: url("../img/체리온탑5.jpg");}
+.cherry06{background-image: url("../img/체리온탑6.jpg");}
+.cherry07{background-image: url("../img/체리온탑7.jpg");}
+.cherry08{background-image: url("../img/체리온탑8.jpg");}
+
+
+
+.ribbon01{background-image: url("../img/리본케이크1.jpg");}
+.ribbon02{background-image: url("../img/리본케이크2.jpg");}
+.ribbon03{background-image: url("../img/리본케이크3.jpg");}
+.ribbon04{background-image: url("../img/리본케이크4.jpg");}
+.ribbon05{background-image: url("../img/리본케이크5.jpg");}
+.ribbon06{background-image: url("../img/리본케이크6.jpg");}
+.ribbon07{background-image: url("../img/리본케이크7.jpg");}
+.ribbon08{background-image: url("../img/리본케이크8.jpg");}
+.ribbon09{background-image: url("../img/리본케이크9.jpg");}
+
+.animals01{background-image: url("../img/동물0.jpg");}
+.animals02{background-image: url("../img/동물1.jpg");}
+.animals03{background-image: url("../img/동물2.jpg");}
+.animals04{background-image: url("../img/동물3.jpg");}
+.animals05{background-image: url("../img/동물4.jpg");}
+.animals06{background-image: url("../img/동물5.jpg");}
+.animals07{background-image: url("../img/동물6.jpg");}
+.animals08{background-image: url("../img/동물7.jpg");}
+
+.etc01{background-image: url("../img/2단케이크.jpg");}
+.etc02{background-image: url("../img/2단케이크2.jpg");}
+.etc01{background-image: url("../img/2단케이크3.jpg");}
+.etc02{background-image: url("../img/딸기케이크.jpg");}
+.etc03{background-image: url("../img/석류케이크.jpg");}
+.etc04{background-image: url("../img/딸기타르트.jpg");}
+.etc05{background-image: url("../img/컵케이크.jpg");}
+.etc06{background-image: url("../img/컵케이크2.jpg");}
+.etc07{background-image: url("../img/무화과타르트.jpg");}
+.etc08{background-image: url("../img/머핀.jpg");}
+
+
+
+
+.footer{
+    width: 100%;
+	height: 200px; 
+	bottom: -3400px;
+	position: absolute;
+    border: 1px solid #000;
+    background-color: #490000;
+}
+
+.footerlist{
+    text-align: left;
+    font-size: 16px;
+    position: absolute;
+    bottom: 40px;
+    left: 25%;
+    color: white;
+    
+}
+
+h3{
+    font-size: 40px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.footerlist li{}
+
+.footerlist li span{}
+.footerlist li span:hover{
+    text-decoration: underline;
+}
